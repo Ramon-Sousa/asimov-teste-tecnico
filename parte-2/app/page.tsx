@@ -19,11 +19,13 @@ export default function HeroSection() {
       >
         {/* Text Block – Figma: 917px wide, vertical auto layout, gap 8px */}
         <div
-          className="flex flex-col items-center mx-auto px-8 lg:px-0 order-1"
+          className="flex flex-col items-center mx-auto order-1 px-2 md-px-8"
           style={{
             maxWidth: "917px",
             width: "100%",
             gap: "8px",
+            paddingLeft: "16px",
+            paddingRight: "16px",
           }}
         >
           {/* Title – Figma: Rethink Sans Medium 60px, lineHeight intrinsic (78.12px) */}
@@ -71,10 +73,12 @@ export default function HeroSection() {
 
         {/* CTA Buttons – Figma: gap 24px, margin-top 56px */}
         <div
-          className="flex flex-col sm:flex-row items-center justify-center w-full px-8 order-2"
+          className="flex flex-col sm:flex-row items-center justify-center w-full order-2"
           style={{
             gap: "24px",
             marginTop: "56px",
+            paddingLeft: "16px",
+            paddingRight: "16px",
           }}
         >
           {/* Primary – Figma (18:1791): filled #85E8EA, text #060607, px 32, h 46, pill */}

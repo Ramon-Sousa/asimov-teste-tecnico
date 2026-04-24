@@ -6,9 +6,8 @@ Este repositório contém a **Parte 2** do desafio técnico para a Asimov Academ
 
 O desenvolvimento desta etapa seguiu uma jornada de exploração de UI/UX:
 
-- **Wireframing:** Foram criadas diferentes variações de wireframes para testar hierarquias de informação e fluxos de usuário.
-- **Hero Section Estratégica:** A escolha final por uma **Hero com Mockup centralizado** foi estratégica. Como o objetivo da página é a venda de um curso, esse espaço foi projetado para ser versátil: atualmente exibe um mockup da plataforma, mas sua estrutura permite a fácil substituição por um **vídeo de apresentação**, elemento crucial para páginas de vendas de infoprodutos.
-- **Identidade Visual:** Focada em um visual *premium*, utilizando o contraste do preto profundo com o azul acentuado (`#85E8EA`) e toques de laranja (`#FF6D0B`) para dar ênfase a elementos chave.
+- **Wireframe:** Foram criadas diferentes variações de wireframes para testar hierarquias de informação e fluxos de usuário.
+- **Hero Section Estratégica:** A escolha final por uma **Hero com Mockup centralizado** foi estratégica. Como o objetivo da página é a venda de um curso, esse espaço foi projetado para ser versátil: atualmente exibe um mockup da plataforma, mas sua estrutura foi pensada para fácil substituição por um **vídeo de apresentação**, elemento crucial para páginas de vendas visando maior conversão.
 
 ### Ferramentas e Metodologia
 
@@ -26,16 +25,19 @@ O desenvolvimento desta etapa seguiu uma jornada de exploração de UI/UX:
 ### Instruções para Rodar Localmente
 
 1. **Navegue até a pasta do projeto:**
+
    ```bash
    cd parte-2
    ```
 
 2. **Instale as dependências:**
+
    ```bash
    npm install
    ```
 
 3. **Inicie o servidor de desenvolvimento:**
+
    ```bash
    npm run dev
    ```

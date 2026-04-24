@@ -36,9 +36,10 @@ function Actions({ isMobile = false }: { isMobile?: boolean }) {
     >
       <button
         type="button"
-        className={`flex items-center justify-center gap-2.5 h-[44px] px-6 rounded-full border border-[#85E8EA] text-[#85E8EA] text-[14px] font-medium hover:bg-[#85E8EA]/10 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#85E8EA] ${
+        className={`flex items-center justify-center gap-3 h-[44px] rounded-full border border-[#85E8EA] text-[#85E8EA] text-[14px] font-medium hover:bg-[#85E8EA]/10 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#85E8EA] ${
           isMobile ? "w-full" : ""
         }`}
+        style={{ paddingLeft: "24px", paddingRight: "24px" }}
       >
         <User size={16} aria-hidden="true" />
         Entrar
@@ -46,9 +47,10 @@ function Actions({ isMobile = false }: { isMobile?: boolean }) {
 
       <button
         type="button"
-        className={`flex items-center justify-center h-[44px] px-10 rounded-full bg-[#85E8EA] text-black text-[14px] font-medium hover:bg-[#70d4d6] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white ${
+        className={`flex items-center justify-center h-[44px] rounded-full bg-[#85E8EA] text-black text-[14px] font-medium hover:bg-[#70d4d6] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white ${
           isMobile ? "w-full" : ""
         }`}
+        style={{ paddingLeft: "32px", paddingRight: "32px" }}
       >
         Matricule-se
       </button>
@@ -74,7 +76,7 @@ export default function Navbar() {
   }, [isMobileMenuOpen]);
 
   return (
-    <header className="flex justify-center w-full border-b border-white/10 bg-black">
+    <header className="flex justify-center w-full border-b border-white/10 bg-black ">
       <div className="mx-auto w-full max-w-7xl px-6 md:px-8">
         <nav className="flex items-center justify-between h-[72px]" aria-label="Navegação principal">
           

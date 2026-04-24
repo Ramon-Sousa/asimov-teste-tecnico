@@ -20,23 +20,26 @@ O projeto segue rigorosamente as especificações do Figma:
 ### Links
 
 - **Deploy (Netlify):** [https://asimov-parte-1.netlify.app/](https://asimov-parte-1.netlify.app/)
-- **Design Original (Figma):** [https://www.figma.com/design/tGRDGEAFAesHU9gllAwZtt/Asimov---Teste-T%C3%A9cnico?node-id=1-6](https://www.figma.com/design/tGRDGEAFAesHU9gllAwZtt/Asimov---Teste-T%C3%A9cnico?node-id=1-6)
+- **Design Original (Figma):** [https://www.figma.com/design/tGRDGEAFAesHU9gllAwZtt/Asimov---Teste-T%C3%A9cnico?node-id=1-561&t=gfbjHhRqYIaPcq3f-1](https://www.figma.com/design/tGRDGEAFAesHU9gllAwZtt/Asimov---Teste-T%C3%A9cnico?node-id=1-561&t=gfbjHhRqYIaPcq3f-1)
 
 ---
 
 ### Instruções para Rodar Localmente
 
 1. **Navegue até a pasta do projeto:**
+
    ```bash
    cd parte-1
    ```
 
 2. **Instale as dependências:**
+
    ```bash
    npm install
    ```
 
 3. **Inicie o servidor de desenvolvimento:**
+
    ```bash
    npm run dev
    ```
