@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg: #ffffff;
+  --color-fg: #000000;
+  --color-green: #B9FF66;
+  --color-dark: #191A23;
+  --color-dark-secondary: #292A32;
+  --color-grey: #F3F3F3;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-muted: #898989;
+  --shadow-card-value: 0px 5px 0px 0px var(--color-dark);
+}
+
+/* Marquee animations for LogotypesBar mobile */
+@keyframes marquee-ltr {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@keyframes marquee-rtl {
+  from { transform: translateX(-50%); }
+  to   { transform: translateX(0); }
+}
+
+@theme inline {
+  --animate-marquee-ltr: marquee-ltr 18s linear infinite;
+  --animate-marquee-rtl: marquee-rtl 18s linear infinite;
+  --font-sans: var(--font-space-grotesk);
+
+  /* Colors */
+  --color-green: #B9FF66;
+  --color-dark: #191A23;
+  --color-dark-secondary: #292A32;
+  --color-grey: #F3F3F3;
+  --color-muted: #898989;
+
+  /* Border radius */
+  --radius-card: 45px;
+  --radius-btn: 14px;
+  --radius-tag: 7px;
+
+  /* Shadows */
+  --shadow-card: 0px 5px 0px 0px #191A23;
+
+  /* Spacing tokens */
+  --spacing-container: 100px;
+  --spacing-container-mob: 20px;
+
+  /* Component size tokens */
+  --width-hero-illustration: 600px;
+  --height-hero-illustration: 515px;
+  --min-height-contact: 600px;
+  --min-height-cta: 347px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto; /* GSAP ScrollSmoother handles smooth scroll */
+}
+
+body {
+  font-family: var(--font-space-grotesk), sans-serif;
+  color: var(--color-fg);
+  background-color: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ScrollSmoother wrapper */
+#smooth-wrapper {
+  overflow: hidden;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#smooth-content {
+  overflow: visible;
+  width: 100%;
+}
