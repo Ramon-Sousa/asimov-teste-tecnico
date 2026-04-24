@@ -18,6 +18,10 @@ Este repositório contém a entrega do desafio técnico para a vaga de designer 
 - **Parte 1 (Figma para código):** [https://asimov-parte-1.netlify.app/](https://asimov-parte-1.netlify.app/)
 - **Parte 2 (Criação do zero):** [https://asimov-parte-2.netlify.app/](https://asimov-parte-2.netlify.app/)
 
+### Links do Figma - Wireframes e alta fidelidade
+
+- **Alta fidelidade:** [https://www.figma.com/design/tGRDGEAFAesHU9gllAwZtt/Asimov---Teste-T%C3%A9cnico?node-id=1-6&t=aaaANGlQwZdLRA9m-1](https://www.figma.com/design/tGRDGEAFAesHU9gllAwZtt/Asimov---Teste-T%C3%A9cnico?node-id=1-6&t=aaaANGlQwZdLRA9m-1)
+
 ---
 
 ### Instruções para rodar localmente
