@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  transpilePackages: ['swiper'],
+  transpilePackages: ["swiper"],
+  output: "export",
   images: {
     remotePatterns: [
       {
